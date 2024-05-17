@@ -1,0 +1,11 @@
+<html>
+<body>
+
+<h2>The target Attribute</h2>
+
+<a href="https://frontlinesmedia.in/" target="_blank">Visit frontlinemedia!</a> 
+
+<p>If target="_blank", the link will open in a new browser window or tab.</p>
+
+</body>
+</html>
