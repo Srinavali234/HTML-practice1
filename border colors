@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 style="color:Tomato;">Hello World</h3>
+
+<p style="color:DodgerBlue;">Effort may change the behavior but it does not change the person. Just think what kind of a mentality it betrays when you ask, 'What must I do to get holiness?' Isn't it like asking, How much money must I spend to buy something? </p>
+
+<p style="color:MediumSeaGreen;">Effort may change the behavior but it does not change the person. Just think what kind of a mentality it betrays when you ask, 'What must I do to get holiness?' Isn't it like asking, How much money must I spend to buy something? </p>
+<h1 style="border: 2px solid Tomato;">Hello World</h1>
+
+<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
+
+<h1 style="border: 2px solid Violet;">Hello World</h1>
+
+
+</body>
+</html>
