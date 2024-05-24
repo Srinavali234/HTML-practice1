@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>div tag</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            padding:3px;
+            margin:0;
+        }
+        div{
+            width: 300px;
+           display: inline-block;
+           padding: 20px;
+           margin:10px;
+           box-shadow: 0 0 10px;
+        }
+        </style>
+</head>
+<body>
+    <h2>div tag by using css</h2>
+    
+    <div style="background-color: lightgrey;">
+        <h1>hollywood movie<h1></h1>
+            <p>Hollywood is a district in Los Angeles, California. It is very famous around the world as a place where movies and television series are made. It has many different attractions such as the Hollywood Walk of Fame and the famous Hollywood Sign.</p>
+    </div>
+    <div style="background-color: blanchedalmond;">
+        <h1>Tollywood movie<h1></h1>
+            <p>tollywood is a district in Los Angeles, California. It is very famous around the world as a place where movies and television series are made. It has many different attractions such as the Hollywood Walk of Fame and the famous Hollywood Sign.</p>
+    </div>
+    <div style="background-color: yellow;">
+        <h1>Bollywood movie<h1></h1>
+            <p>bollywood is a district in Los Angeles, California. It is very famous around the world as a place where movies and television series are made. It has many different attractions such as the Hollywood Walk of Fame and the famous Hollywood Sign.</p>
+    </div>
+
+</body>
+</html>
