@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>div tag</title>
+    <style>
+        .city{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            background-color:lightgrey;
+            padding:8px;
+            margin:30px;
+            border-color: black;
+            border-radius: 20px;
+            box-shadow:0 0 10px black;
+        }
+        h2,p{
+            text-align:center;
+        }
+        .main{
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+        </style>
+        
+</head>
+<body>
+    <div class="city">
+        <h2>america</h2>
+        <p>america is the beautiful country</p>
+    </div>
+ 
+    <div class="city">
+        <h2>london</h2>
+        <p>london is the beautiful country</p>
+    </div>
+
+    <div class="city">
+        <h2>paris</h2>
+        <p>paris is the beautiful country</p>
+    </div>
+
+    <h2>span tag</h2>
+    <p class="main"><b>this is<span style="color: red;"> main heading</span>at the web page</b></p>
+</body>
+</html>
