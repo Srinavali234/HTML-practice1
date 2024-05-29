@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>html layout </title>
+    <style>
+
+       #cites{
+        background-color: gray ;
+        padding: 40px;
+        margin: 0%;
+        text-align: center;
+        color: white;
+        font-size:50px;
+       }
+       nav{
+        float: left;
+        background-color: #ccc;
+        width:200px;
+        height: 50%;
+        padding:30px;
+        margin-top:0px;
+        margin-bottom: 100px;
+      
+       }
+       nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 300px;
+  background-color: #f1f1f1;
+  height: 50px; /* only for demonstration, should be removed */
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 5px;
+  margin: 3px;
+  text-align: center;
+  color: white;
+
+}
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+    <h1 id="cites">cities</h1>
+</header>
+<section>
+    <nav>
+        <ul>
+        <li><a href="#">america</a></li>
+        <li><a href="#">london</a></li>
+       <li> <a href="#">uk</a></li>
+        </ul>
+        </nav>
+        <article>
+            <h2>london</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants. <br>
+                <br>
+
+                Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            </article>
+        </section>
+            <footer>
+                <h1>footer</h1>
+            </footer>
+</body>
+</html>
