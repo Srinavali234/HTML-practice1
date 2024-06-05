@@ -1,0 +1,158 @@
+.nav-bar {
+    background-color: lightgrey;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top:0px;
+}
+.Home{
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(146, 130, 130);
+}
+.content{
+    position: absolute;
+    display: none;
+    color:white;
+}
+header1:hover .content{
+    display:inline-block;
+    margin-left: 20px;
+    color:white;
+    background-color:rgb(22, 20, 20);
+    margin-bottom: 5px;
+    border-radius: 7px;
+    top: 40px;
+    padding: 10px;
+}
+.storebtn{
+    cursor: pointer;
+    color:rgb(146, 130, 130);
+}
+.div2{
+    margin-left: 20px;
+}
+.storecontent{
+    position: absolute;
+    display: none;
+    color:white;
+}
+.div2:hover .storecontent{
+    display:inline-block;
+    margin-left: 0px;
+    color:white;
+    background-color:rgb(22, 20, 20);
+    margin-bottom: 5px;
+    border-radius: 7px;
+    top: 40px;
+    padding: 10px;
+}
+.div3{
+    margin-left: 20px;
+    position: relative;
+}
+.catcontent{
+    position: absolute;
+    display: none;
+    left:20px;
+
+
+}
+.div3:hover .catcontent{
+    display: block;
+    display:flex;
+    flex-direction: row;
+    top:40px;
+    border-radius: 10px;
+}
+.genres{
+    display: flex;
+    width: 360px;
+    height: 300px;
+    background-color:rgb(22, 20, 20);
+    margin-left: 0px;
+}
+.genrescontent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-top: 30px;
+    margin-left:2px;
+}
+.Featuredcollections{
+    display: flex;
+    width: 350px;
+    height: 300px;
+    background-color:rgb(22, 20, 20);
+    justify-content: space-around;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.featuredcontent{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+.catbtn:hover{
+    cursor: pointer;
+}
+.searchicon{
+    margin-left: 70px;
+    height:26px;
+    width:20px;
+}
+.div4:hover .ENcontent{
+    display: block;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(22, 20, 20);
+    top:40px;
+    padding:5px;
+    width:380px;
+}
+.ENcontent{
+    position: absolute;
+    width:400px;
+    height:200px;
+    display: none;
+    color:white;
+    
+}
+.profile{
+    margin-left: 30px;
+    height: 30px;
+}
+.profile:hover{
+    cursor: pointer;
+}
+.profilecontent{
+    position: absolute;
+    display: none;
+    background-color:black;
+}
+.profilesection:hover .profilecontent{
+    display: block;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(22, 20, 20);
+}
+.EN:hover{
+    cursor: pointer;
+}
+.footerpart{
+    color:black;
+    text-align: center;
+    background-color: lightgray;
+    padding:10px;
+}
