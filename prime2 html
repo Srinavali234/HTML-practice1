@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="prime2 css.css">
+    <title>prime viedo</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+       .mainbox{
+         background-color: black;
+         color: white;
+         padding:150px;
+        margin: right 10px;;
+       }
+    </style>
+</head>
+<body style="background-color:black;;">
+    <nav style="top: 0px; position:fixed; width:2000px;">
+        <div class="nav-bar">
+            <h1 style="margin-left: 200px; color:black"black" font-weight: bold;" >Prime Video</h1>
+            <div class="header1">
+            <h2 class="Home"> Home</h2>
+            <div class="content">
+                <h3> All</h3>
+                <h3> Movies</h3>
+                <h3> TV Shows</h3>
+            </div>
+            </div>
+                    <div class="div2">
+                        <h2 class="storebtn">Store</h2>
+                        <div class="storecontent">
+                            <h3> All</h3>
+                            <h3> Rent</h3>
+                            <h3>Channels</h3>
+                        </div>
+                    </div>
+                    <h2 style="padding-left: 30px; color:rgb(146, 130, 130);"> Live TV</h2>
+                    <div class="div3">
+                   <h2 class="catbtn" style="color:rgb(146, 130, 130);"> Categories</h2>
+                   <div class="catcontent">
+                    <div class="genres">
+                        <div class="genrescontent">
+                            <h2 style=" background-color:blue; flex;flex-direction: row;justify-content: 1fr; font-weight: bold; margin-bottom: 20px; margin-top: 0px; top:0px;">Genres</h2>
+                            <h2 style="display: flex;flex-direction: row;justify-content: 1fr; font-weight: bold; margin-bottom: 20px; top:0px;">Genres</h2>
+                        <h3>anime </h3>
+                        <h3> Action and adventure</h3>
+                        <h3> Comdey</h3>
+                        <h3> Documentary</h3>
+                        <h3> Drama</h3>
+                        <h3> Fantasy</h3>
+                        <h3> Horror</h3>
+                        <h3>  Kids</h3>
+                        <h3 style> Mystery and thrillers</h3>
+                        <h3> Romance</h3>
+                        <h3 style> Science fiction</h3>
+                        </div>
+                    </div>
+                    <div class="Featuredcollections">
+                        <div class="featuredcontent">
+                            <h2 class="head" > Featured Collections</h2>
+                            <h3> english</h3>
+                            <h3> hindi</h3>
+                            <h3> Telugu</h3>
+                            <h3> Tamil</h3>
+                            <h3> Malayalam</h3>
+                            <h3 style="margin-top: 70px;"> bengali</h3>
+                            <h3> Marathi</h3>
+                            <h3> Punjabi</h3>
+                            <h3> Gujarati</h3>
+                            <h3> kannada</h3>
+                        </div>
+                </div>
+                </div>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63SKA-wL_NPMScjBr5Tw3r7d4XBhwstmQuA&s" class="searchicon">
+            <h2 style="padding-left: 30px; color:rgb(146, 130, 130);"> Try for free</h2>
+            <div class="div4">
+                <h2 style="padding-left: 30px; color:rgb(146, 130, 130);" class="EN"> EN</h2>
+                <div class="ENcontent">
+                    <h3>dansk</h3>
+                    <h3> Bahasa Melayu</h3>
+                    <h3> Bahasa Indonesia</h3>
+                    <h3> Deutsch</h3>
+                    <h3> English</h3>
+                    <h3> Espanol</h3>
+                    <h3> Francasis</h3>
+                    <h3> Italiano</h3>
+                    <h3> Magyar</h3>
+                    <h3> Nederlands</h3>
+                    <h3> Norsk</h3>
+                    <h3> Polski</h3>
+                    <h3> Portugues</h3>
+                    <h3> Portugal</h3>
+                    <h3> Romana</h3>
+                    <h3> Suomi</h3>
+                </div>
+            </div>
+            <div class="profilesection">
+                <img src="data:image/jpeg;base64,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" width="30" height="30" class="sign in">
+                <div class="profilecontent">
+                    <h3> Sign In</h3>
+                    <h3> Help</h3>
+                    <h3> watch Anywhere</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+        </div>
+    <section>
+        <div class="mainbox">
+        <h1>welocome to prime viedo</h1>
+        <p>Join Prime to watch the latest movies,<br> TV shows and award-winning Amazon Originals</p>
+    </section>
+    <footer>
+        <div class="footerpart">
+            <img src="data:image/png;base64,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" width="100">
+            <p>terms and privacy notice</p><br>© 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+    </footer>
+</body>
+</html>
