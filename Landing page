@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>We offer the best services to boost your business.</p>
+            <a href="#features" class="cta-button">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a leading company in providing top-notch solutions for your business needs. Our team of experts is dedicated to delivering high-quality services.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-box">
+                <h3>Feature 1</h3>
+                <p>High-quality service that meets your expectations.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Feature 2</h3>
+                <p>Customized solutions tailored to your business.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Feature 3</h3>
+                <p>24/7 customer support to assist you at any time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
